@@ -1,0 +1,72 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pseudo class selector</title>
+	<style>
+		header li{
+			list-style: none;
+		}
+		a:link,a:visited{
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid blue;
+			color: black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+
+		}
+		a:hover,a:active{
+			background-color: red;
+			color: yellow;
+		}
+		header li:nth-child(3){
+			font-size: 36px;
+		}
+		section div:nth-child(odd):hover{
+			background-color: blue;
+			cursor: pointer;
+		}
+		section div:nth-child(even):hover{
+			background-color: yellow;
+			cursor: pointer;
+		}
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="https://www.google.com/search?q=coursera&oq=&aqs=chrome.0.35i39l7j46.87370517j0j7&sourceid=chrome&ie=UTF-8">HOME</li>
+			<li><a href="https://www.facebook.com/profile.php?id=100005904436926" target="_blank">PROFILE</li>
+			<li><a href="https://www.coursera.org/programs/ajay-kumar-garg-engineering-college-rxilh">Coursera main page</a></li>	
+		</ul>
+	</header>
+	<section>
+		<div>Div1</div>
+		<div>Div2</div>
+		<div>Div3</div>
+		<div>Div4</div>
+		<div>Div5</div>
+		<div>Div6</div>
+		<div>Div7</div>
+		<div>Div8</div>
+		<div>Div9</div>
+		<div>Div10</div>
+		<div>Div11</div>
+		<div>Div12</div>
+		<div>Div13</div>
+		<div>Div14</div>
+		<div>Div15</div>
+		<div>Div16</div>
+		<div>Div17</div>
+		<div>Div18</div>
+		<div>Div19</div>
+		<div>Div20</div>
+	</section>
+</body>
+</html>
